@@ -4,25 +4,24 @@
 icon: null
 
 # The name of the course. You can see it in the title or in the list
-name: Example course 2
+name: HTML Basics
 
 # The author. It will appear on the front page and on the courses list
-author: CodeDoctorDE
+author: FreshVlay
 
 # The description of the course which can be seen in the list of the courses and the intro page.
 description: >
-  This course is only an example which
-  shows how this config works -- 2
+  Lerne die Basics der Web-Entwicklung.
   
 # The body is posting on the home page of the course page
 body: |
-  This is the body
+  "Das erstellen einer Webseite ist einfach. Um sie ansprechend zu designen braucht man Skills."
 
 # The current category of the course. You can see the categories in the list
 category: []
 
 # The language of the course. You can see a flag as a badge of the course.
-lang: en
+lang: de
 
 # Controls if the course is shown in the list
 private: true
