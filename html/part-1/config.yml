@@ -11,22 +11,23 @@ items:
   type: video
   source: youtube
   url: https://www.youtube.com/watch?v=S7hsJvqDsS4&list=PLM5uQJ9q3K5UF-zkdht8rZ4kfahClmZAV
-- name: Der Website einen Titel geben:
+- name: Zusammenfassung
   type: text
-  text: >
-    <title> HTML Basics </title>
+  text: |
+    Der Website einen Titel geben:
+    ```html
+      <title> HTML Basics </title>
+    ```
 - name: Quiz
   # Optional: Max time in seconds (here: 10 minutes)
   time: 600
   type: quiz
   questions:
   - title: Wie gibst du der Website einen Titel?
-    description: Es gibt 3 Auswahlmöglichkeiten, doch nur 1ne ist richtig.
+    description: Es gibt 3 Auswahlmöglichkeiten, doch nur eine ist richtig.
     evaluation: An evaluation
     answers:
     - name: <titel></titel>
     - name: <title></title>
     - name: <name></name>
-      correct: true
-    - name: B
       correct: true
