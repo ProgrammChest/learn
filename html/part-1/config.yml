@@ -29,5 +29,5 @@ items:
     answers:
     - name: <titel></titel>
     - name: <title></title>
-    - name: <name></name>
       correct: true
+    - name: <name></name>
