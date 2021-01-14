@@ -1,13 +1,13 @@
 # The name of the current part. The name will stand on the sidebar
-name: HTML Basics
+name: Website erstellung in HTML
 
 # Optional: The description of the part
-description: In diesem Kurs lernst du schnell und einfach die Basics die du für die Web-Entwicklung benötigst.
+description: In diesem Kurs lernst du schnell und einfach alles was du für die Webentwicklung benötigst.
 
 # The content of the part.
 items:
-- name: HTML Basics
-  description: Ein kleines Video zu erläuterung der Basics.
+- name: Part 1: HTML Basics
+  description: In diesem Video werden die wichtigsten Grundkenntnisse der Websiteentwicklung erläutert.
   type: video
   source: youtube
   url: https://www.youtube.com/watch?v=S7hsJvqDsS4&list=PLM5uQJ9q3K5UF-zkdht8rZ4kfahClmZAV
@@ -17,6 +17,12 @@ items:
     Der Website einen Titel geben:
     ```html
       <title> HTML Basics </title>
+    ```
+    type: text
+  text: |
+    Eine Überschrift erstellen:
+    ```html
+      <h1> Überschrift [Groß] </h1>
     ```
 - name: Quiz
   # Optional: Max time in seconds (here: 10 minutes)
